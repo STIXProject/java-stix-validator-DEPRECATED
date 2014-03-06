@@ -6,9 +6,9 @@ Because the Java STIX Validator uses JavaFX, you'll need Java 7 in order to run 
 
 ## Use
 If you're not interested in building the code manually and just want to get the validator, you can download a pre-build
-JAR that will run on Windows, Mac, and Linux. The latest version is available [here](TODO).
+JAR that will run on Windows, Mac, and Linux. The latest version is available [here](https://github.com/STIXProject/java-stix-validator/wiki/STIX_Validator.jar).
 
-For help getting started and understanding what the validator checks for, see the [wiki](wiki).
+For help getting started and understanding what the validator checks for, see the [wiki](https://github.com/STIXProject/java-stix-validator/wiki).
 
 ## Development
 If you want to develop against the Java STIX Validator, simply import the code into your IDE as a JavaFX application. The
