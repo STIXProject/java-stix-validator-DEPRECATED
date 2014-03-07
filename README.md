@@ -14,7 +14,7 @@ For help getting started and understanding what the validator checks for, see th
 If you want to develop against the Java STIX Validator, simply import the code into your IDE as a JavaFX application. The
 `src` folder should be added as a source folder and the `resources` folder as a resources folder.
 
-The main class for the UI is org.mitre.stix.validator.ui.Main.
+The main class for the UI is org.mitre.stix.validator.Main.
 
 ## Terms
 BY USING THE STIX DOCUMENT VALIDATOR, YOU SIGNIFY YOUR ACCEPTANCE OF THE

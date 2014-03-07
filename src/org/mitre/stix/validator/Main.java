@@ -1,4 +1,4 @@
-package org.mitre.stix.validator.ui;
+package org.mitre.stix.validator;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,7 +10,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("validator-main-window.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("ui/validator-main-window.fxml"));
         primaryStage.setTitle("STIX Validator");
         Scene scene = new Scene(root, 900, 600);
         scene.getStylesheets().add("org/mitre/stix/validator/ui/validator-main-window.css");

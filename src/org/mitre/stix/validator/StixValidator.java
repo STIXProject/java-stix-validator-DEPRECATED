@@ -1,5 +1,6 @@
 package org.mitre.stix.validator;
 
+import org.mitre.stix.validator.sp.SuggestedPracticeValidator;
 import org.xml.sax.ErrorHandler;
 import org.xml.sax.SAXException;
 import org.xml.sax.SAXParseException;
@@ -23,6 +24,10 @@ public class StixValidator {
     // The actual schema instance to validate against
     private Schema schema;
 
+    // The list of best practice validators
+    private List<SuggestedPracticeValidator> suggestedPracticeValidators = new ArrayList<SuggestedPracticeValidator>();
+
+    // Create a new validator for a given STIX version
     public StixValidator(String version) throws SAXException {
         // Loads the correct set of schemas based on the STIX version
         schema = schemaFactory.newSchema(getClass().getResource("/schemas/" + version + "/uber_schema.xsd"));
