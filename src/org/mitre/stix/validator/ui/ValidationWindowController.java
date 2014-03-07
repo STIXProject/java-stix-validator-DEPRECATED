@@ -104,7 +104,8 @@ public class ValidationWindowController implements Initializable{
             List<SchemaError> errors = validators.get(version).validate(file);
 
             // Empty the observable list, then add the new errors
-            boundErrors.removeAll();
+            boundErrors.remove(0, boundErrors.size());
+
             for(SchemaError error : errors) {
                 boundErrors.add(new BoundSchemaError(error));
             }
