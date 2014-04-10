@@ -41,7 +41,7 @@ public class StixValidator {
         return validate(new StreamSource(string));
     }
 
-    private List<SchemaError> validate(Source source) throws SAXException, IOException {
+    public List<SchemaError> validate(Source source) throws SAXException, IOException {
         Validator validator = schema.newValidator();
 
         // Create and set the error handler. When the validator encounters errors, it calls
