@@ -1,4 +1,7 @@
-# Java STIX Validator (BETA)
+# Java STIX Validator (DEPRECATED)
+
+This project is deprecated, and has been replaced by [java-stix-validator][java-stix-validator].
+
 A Java library for validating STIX documents, with a simple JavaFX frontend.
 
 ## Dependencies
@@ -27,3 +30,5 @@ TERMS AND CONDITIONS OF USE.  IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE
 THE STIX DOCUMENT VALIDATOR.
 
 For more information, please refer to the LICENSE.txt file
+
+[java-stix-validator]:https://github.com/STIXProject/java-stix-validator
